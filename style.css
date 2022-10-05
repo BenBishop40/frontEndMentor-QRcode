@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "Outfit";
+    src: url("https://fonts.google.com/specimen/Outfit");
+}
+
+body{
+    text-align: center;
+    margin: 30px;
+    font-family: "Outfit";
+    background-color: hsl(212, 45%, 89%);
+}
+.content {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    width: 40%;
+    position: relative;
+    left: 25%;
+    top: 25%;
+    padding-bottom: 30px;
+}
+.imageQR {
+    border-radius: 10px;
+    margin-top: 15px;
+    width: 80%;
+}
+
+h1 {
+    padding: 0 100px;
+}
+p {
+    color: hsl(220, 15%, 55%);
+    padding: 0 100px;
+}
